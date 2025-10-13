@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vijay Kumar — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo"><span>Vijay Kumar</span></a>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="personal-info.html">Personal Info</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-title">Vijay Kumar</h1>
+      <p class="hero-tagline">Engineering Student passionate about technology and innovation.</p>
+      <div class="hero-actions">
+        <a href="about.html" class="btn btn-accent">About Me</a>
+        <a href="personal-info.html" class="btn btn-outline">Personal Info</a>
+        <a href="contact.html" class="btn btn-outline">Contact</a>
+        <a href="resume.html" class="btn btn-outline">Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Vijay Kumar. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

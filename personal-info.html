@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Info — Vijay Kumar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo"><span>Vijay Kumar</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="personal-info.html" class="active">Personal Info</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="personal-info" class="section dark">
+    <div class="container">
+      <h2>Personal Information</h2>
+      <div class="card dark">
+        <ul class="bullets">
+          <li><strong>Name:</strong> Vijay Kumar</li>
+          <li><strong>Email:</strong> vijay11@gmail.com</li>
+          <li><strong>Phone:</strong> +91-9945618345</li>
+          <li><strong>Address:</strong>Belur,Hassan, Karnataka </li>
+          <li><strong>Date of Birth:</strong> 05 Apr 2005</li>
+          <li><strong>Nationality:</strong> Indian</li>
+          <li><strong>LinkedIn:</strong> 
+            <a href="https://linkedin.com/in/vijay-kumar" target="_blank" style="color:#fff;text-decoration:underline;">
+              linkedin.com/in/vijay-kumar
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Vijay Kumar. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
